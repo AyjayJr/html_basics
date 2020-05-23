@@ -3,9 +3,22 @@
   <head>
     <meta charset="utf-8">
     <title>First Webpage</title>
+    <style>
+      body {
+        color: gray;
+      }
+
+      .related h6 {
+        color: purple;
+      }
+
+      .header {
+        background-color: black;
+      }
+    </style>
   </head>
   <body>
-    <header>
+    <header class="header">
       <h1>Video Hosting Website</h1>
       <nav>
         <ul>
@@ -35,20 +48,22 @@
       </button>
     </article>
     <br>
-    <h4>Related videos</h4>
-    <br>
-    <article>
-      <h6>The Toxic World of Self Help: ...</h6>
-      <iframe width="187" height="105" src="https://www.youtube.com/embed/dmLTLkCBSN8"
-      frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
-      picture-in-picture" allowfullscreen></iframe>
-    </article>
-    <article>
-      <h6>How to stop quarantine from ruining ...</h6>
-      <iframe width="187" height="105" src="https://www.youtube.com/embed/b8SRAKfP2J4"
-      frameborder="0" allow="accelerometer; autoplay; encrypted-media;
-      gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </article>
+    <section class="related">
+      <h4>Related videos</h4>
+      <br>
+      <article>
+        <h6>The Toxic World of Self Help: ...</h6>
+        <iframe width="187" height="105" src="https://www.youtube.com/embed/dmLTLkCBSN8"
+        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
+        picture-in-picture" allowfullscreen></iframe>
+      </article>
+      <article>
+        <h6>How to stop quarantine from ruining ...</h6>
+        <iframe width="187" height="105" src="https://www.youtube.com/embed/b8SRAKfP2J4"
+        frameborder="0" allow="accelerometer; autoplay; encrypted-media;
+        gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </article>
+    </section>
     <br>
     <pre>
     <footer>
