@@ -3,41 +3,30 @@
   <head>
     <meta charset="utf-8">
     <title>First Webpage</title>
-    <style>
-      body {
-        color: gray;
-      }
-
-      .related h6 {
-        color: purple;
-      }
-
-      .header {
-        background-color: black;
-      }
-    </style>
+    <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
   <body>
     <header class="header">
       <h1>Video Hosting Website</h1>
-      <nav>
+      <nav id="navcontainer">
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="index.html">Profile</a></li>
           <li><a href="index.html">Blog</a></li>
+          <li><a href="index.html">About</a></li>
         </ul>
-      </nav>
-      <form label="Search Bar">
-        <input type="search" placeholder="Search">
-        <button type="submit">
-          <img src="search.jpg" alt="search magnifying glass" width="20" height="15">
-        </button>
-      </form>
+        <form id="search" label="Search Bar">
+          <input type="search" placeholder="Search">
+          <button type="submit">
+            <img src="search.jpg" alt="search magnifying glass" width="20" height="15">
+          </button>
+        </form>
+    </nav>
     </header>
     <br>
-    <article>
+    <article class="content">
       <h2>How the comfort zone is ruining your life</h2>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/0h-IAlNjd4Q"
+      <iframe width="800" height="500" src="https://www.youtube.com/embed/0h-IAlNjd4Q"
       frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
       picture-in-picture" allowfullscreen>
       </iframe>
